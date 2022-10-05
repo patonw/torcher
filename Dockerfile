@@ -1,5 +1,5 @@
 FROM rockylinux:9.0
-ARG TORCH_DIST=https://download.pytorch.org/libtorch/cu113/libtorch-cxx11-abi-shared-with-deps-1.10.0%2Bcu113.zip
+ARG TORCH_DIST=https://download.pytorch.org/libtorch/cu116/libtorch-cxx11-abi-shared-with-deps-1.12.1%2Bcu116.zip
 
 RUN curl https://busybox.net/downloads/binaries/1.35.0-x86_64-linux-musl/busybox > /usr/bin/busybox \
     && chmod +x /usr/bin/busybox
